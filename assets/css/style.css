@@ -510,7 +510,7 @@ img.logo-dark {
 	display: none;
 }
 
-.header-content-mobile-dark .logo-dark {
+.header-content-mobile-dark .logo-light {
 	display: block;
 }
 
@@ -633,7 +633,7 @@ img.logo-dark {
 	}
 
 	.site-nav > ul > li.active > a:before {
-		border-bottom-color: #fff;
+		border-bottom-color: none;
 	}
 
 	body.layout-mobile .site-header {
@@ -664,7 +664,7 @@ img.logo-dark {
 	}
 
 	.header-content-light .site-nav > ul > li.active > a:before {
-		border-bottom-color: #fff;
+		border-bottom-color:none;
 	}
 
 	.header-content-dark {
@@ -1141,12 +1141,12 @@ a.backtotop.active {
 
 .btn-primary {
 	background-color: #052e3c;
-	border-color: #037de8;
+	border-style: none !important;
+
 }
 
 .btn-primary:hover {
-	background-color: #036ecc;
-	border-color: #036ecc;
+	background-color: #252729;
 }
 
 .btn-primary:focus, .btn-primary.focus {
